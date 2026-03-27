@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data files (DVC se track karenge, Git se nahi)
+data/raw/*.csv
+data/processed/*.csv
+*.pkl
+
+# DVC files (Inhein ignore NAHI karna)
+# .dvc/ directory aur .dvc files Git mein track hote hain
+!.dvc/
+!*.dvc
+
+# Models
+models/
+*.pth
+*.h5
+*.joblib
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+logs/
+*.log
